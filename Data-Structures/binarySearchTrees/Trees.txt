@@ -1,0 +1,29 @@
+trees are some kind of a data structure, but it is not linear like the singly linked list, it is like a tree (branching) where it starts from a root node then start edging (branching) to child nodes and these child nodes can branch to another nodes
+
+some terminology of the trees
+
+1- Root > It is the first node in the tree
+2- Child > A node that has a parent node
+3- Parent > A node that has a child node
+4- Siblings > A group of nodes that are common in the same parent
+5- Leaf > A node that has no children
+6- Edge > A connection betwen one node and another
+
+
+Some use cases of the trees
+
+1- The DOM > document object model, it starts with html as the root then body and head as childs, then the body and head will have another edge to connect more html children
+2- The Operating system folder structure as we have one parent directory then it start to have children files and directories
+3- Most importantly as a backend developer, the api in a form of json is a tree data structure where we usually have the data object that contains the nested data we want
+
+
+there are alot of types of trees. like the binary trees where each parent have 2 children or less
+
+________________________________________________________________Binary Search Tree___________________________________________
+
+the binary search tree (BST) is a special case of the binary trees but is super powerfull in searching as it follows these rules
+1- each parent has at most 2 children (can`t exceed two children) 
+2- (let`s say we will store numbers in the tree) the parent tree has the smaller number (smaller than the parent itself) at the left and the greater node at the right, and then this small children will hav nested children so the smaller node will be at the left of it and the greater will be at the right
+
+
+so it super easy to search for something because of this way
