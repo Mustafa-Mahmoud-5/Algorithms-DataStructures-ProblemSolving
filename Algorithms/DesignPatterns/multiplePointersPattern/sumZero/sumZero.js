@@ -1,4 +1,4 @@
-// create a function that takes a sorted array and then return an array of the two numbers that their sum are zero, if there`s no such case, return undefined
+    // create a function that takes a sorted array and then return an array of the two numbers that their sum are zero, if there`s no such case, return undefined
 
 const sumZero = (arr) => {  
 
